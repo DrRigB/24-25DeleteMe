@@ -11,3 +11,6 @@ spspspssppspspspspspzpspspspspspspspspsssssspsppspspspspspspsppppppppppppppppppp
 try reading that
 these are random worsds to test git
 wushadbduajdjdieidkdlsla;s;sleoe
+
+List of dad jokes
+1. you can't ever trust sairs, they are always up to something.
