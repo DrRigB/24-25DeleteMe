@@ -1,0 +1,47 @@
+print("Hello  welcome to the calculator")
+
+def calculator_start():
+    math_start = input("Add, Sub, Mult, Div, Exp : ")
+    num1 = float(input("What is your first number?" ))
+    num2 = float(input("What is your second number?" ))
+    if math_start == "Add":
+        def addition():
+            add_sum = num1 + num2
+            print("Here is your answer:")
+            print(add_sum)
+    
+        addition()
+    
+    elif math_start == "Sub":
+        def subtraction():
+         sub_sum = num1 - num2
+         print("Here is your answer:")
+         print(sub_sum)
+        subtraction()
+
+    elif math_start == "Mult":  
+        def multiplication():
+         mult_sum = num1 * num2
+         print("Here is your answer:")
+         print(mult_sum)
+        multiplication()
+
+    elif math_start == "Div":
+      def division():
+        div_sum = num1 / num2
+        print("Here is your answer:")
+        print(div_sum)
+      division()
+
+    elif math_start == "Exp":
+       def exponent():
+        exp_sum = num1 ** num2
+        print("Here is your answer:")
+        print(exp_sum)
+       exponent()
+
+    else:
+        print("Please put the exact one you want or, Have a nice day!")
+    calculator_start()
+
+calculator_start()
